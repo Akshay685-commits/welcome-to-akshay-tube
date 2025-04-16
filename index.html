@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Video Platform</title>
+  <link rel="stylesheet" href="style.css">
+   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #202020;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .video-card {
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .video-card:hover {
+      transform: scale(1.02);
+    }
+
+    video {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .video-title {
+      font-size: 16px;
+      margin-top: 8px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<BOdy><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>YouTube Search</title>
+    </head>
+    <body>
+        <h2>Search on YouTube</h2>
+        <form action="https://www.youtube.com/results" method="get" target="_blank">
+            <input type="text" name="search_query" placeholder="Search on YouTube" required>
+            <button type="submit">Search</button>
+        </form>
+    </body>
+    </html></BOdy>
+
+<header>
+  Welcome - To Akshay Video Gallery 
+</header>
+<body>
+    <!-- Sidebar Menu -->
+<div id="sidebar">
+    <ul>
+        <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#trending"><i class="fa fa-fire"></i> Trending</a></li>
+        <li><a href="#subscription"><i class="fa fa-bell"></i> Subscription</a></li>
+        <li><a href="#history"><i class="fa fa-history"></i> History</a></li>
+        <li><a href="#download"><i class="fa fa-download"></i> Download</a></li>
+    </ul>
+</div>
+
+<!-- Main Content Area -->
+<div id="main-content">
+    <!-- Your website's main content will go here -->
+</div>
+</body>
+<div class="video-grid">
+  <div class="video-card">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vtfL2wHjJ0A?si=3Uh5eHVtFU0BFXNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"></video>
+    <div class="video-title">Video 1</div>
+  </div>
+  <div class="video-card">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4gtxchZqzc?si=Z35Y2aOcnbOBVBsG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"></video>
+    <div class="video-title">Video 2</div>
+  </div>
+  <div class="video-card">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LOOIw7OKp5s?si=xGZv03piqG73x3fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="video-title">Video 3</div>
+  </div class="video-card"> 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ulVo0UnBQ6A?si=MVKSHfxQG4QKlSPO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-title">Video 4</div>
+
+
+<script>
+  // Example: JavaScript to pause all other videos when one is played
+  const videos = document.querySelectorAll('video');
+  videos.forEach(video => {
+    video.addEventListener('play', () => {
+      videos.forEach(v => {
+        if (v !== video) v.pause();
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
+</body>
+</html>
